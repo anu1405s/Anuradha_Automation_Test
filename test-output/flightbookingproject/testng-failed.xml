@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [flightbookingproject]">
+  <listeners>
+    <listener class-name="com.flightbooking.testcases.Listener"/>
+  </listeners>
+  <test thread-count="5" name="flightbookingproject Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.flightbooking.testcases.TC_VerifyFlightDetails_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyFlightDetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flightbooking.testcases.TC_VerifyFlightDetails_002 -->
+    </classes>
+  </test> <!-- flightbookingproject Test(failed) -->
+</suite> <!-- Failed suite [flightbookingproject] -->

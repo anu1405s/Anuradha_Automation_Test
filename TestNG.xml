@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="flightbookingproject">
+
+<listeners>
+<listener class-name="com.flightbooking.testcases.Listener"></listener>
+
+</listeners>
+
+
+<test name="flightbookingproject Test">
+<parameter name="browser" value="chrome"></parameter>
+
+    <classes>
+      
+      <class name="com.flightbooking.testcases.TC_BookFlight_001"/>
+      <class name="com.flightbooking.testcases.TC_VerifyFlightDetails_002"/>
+      
+      </classes>
+      </test>
+      
+   </suite>
